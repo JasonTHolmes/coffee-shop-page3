@@ -1,0 +1,51 @@
+@font-face {
+    src: url(../fonts/RioGrande.ttf);
+    font-family: RioGrande;
+}
+
+@font-face {
+    src: url(../fonts/RioGrandeStriped.ttf);
+    font-family: "RioGrandeStriped";
+}
+
+html {
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+}
+
+body {
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+h1 {
+    top: 40%;
+    left: 49%;
+    margin: auto;
+    padding: 5px;
+    position: absolute;
+    font-size: 10vw;
+    transform: translateY(-50%) translateX(-48%);
+    background: rgba(0, 0, 0, 0.815);
+    text-align: center;
+    font-family: RioGrande;
+}
+
+ul {
+    top: 75%;
+    left: 10%;
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    position: absolute;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.815);
+}
+
+navbar ul li {
+    display: inline-block;
+    font-size: 30px;
+    list-style: none;
+    margin-left: 150px;
+}
